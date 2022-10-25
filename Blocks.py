@@ -1,13 +1,13 @@
 import pygame
 from pygame.draw import rect
 
-HERO = "Hero"
 ORANGE_RICKY = "OrangeRicky"
 BLUE_RICKY = "BlueRicky"
 CLEVELANDZ = "ClevelandZ"
 RHODE_ISLAND_Z = "RhodeIslandZ"
 TEWEE = "Teewee"
 SMASH_BOY = "SmashBoy"
+HERO = "Hero"
 
 class Block ():
     def __init__(self, type: str, positionX: float =  0.0, positionY: float =  0.0,
